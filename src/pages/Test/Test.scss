@@ -1,0 +1,18 @@
+.test-container {
+    padding: 20px;
+
+    .test-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            font-family: "Roboto";
+        }
+        
+        img {
+            width: 500px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.main-page-container {
+
+    .main-page-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            text-align: center;
+        }
+
+        img {
+            width: 200px;
+            text-align: center;
+        }
+
+        .links-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            span {
+                padding: 20px;
+            }
+        }
+    }
+}
