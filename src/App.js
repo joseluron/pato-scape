@@ -4,7 +4,7 @@ import TestPage from './pages/Test/Test';
 
 import './App.scss';
 
-const App = () => {
+const App = props => {
   return (
     <BrowserRouter>
         <div className="app-container page-background">

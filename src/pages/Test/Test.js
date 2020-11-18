@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { withRouter } from 'react-router-dom';
 
+import Nav from '../../components/Nav';
+
 import './Test.scss';
 import Map from '../../assets/img/map.png';
 import Cesar from '../../assets/img/cesar.png';
@@ -36,6 +38,7 @@ const TestPage = props => {
   
   return (
     <div className="test-container">
+      <Nav />
       <div className="test-wrapper">
         {toDoTest &&
           <>

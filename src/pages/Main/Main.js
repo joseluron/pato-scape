@@ -1,14 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Nav from '../../components/Nav';
+
 import './Main.scss';
-import SuperPato from '../../assets/img/superPato.jpg';
+import SuperPato from '../../assets/img/superPato.png';
 
 const MainPage = () => {
   return (
     <div className="main-page-container">
+      <Nav />
       <div className="main-page-wrapper">
-        <h1>Pato al rescate!</h1>
         <img src={SuperPato} alt="Super Pato" />
         <div className="links-container">
           <Link to="/map"><span>Map</span></Link>
