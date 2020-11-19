@@ -21,8 +21,23 @@
             flex-wrap: wrap;
             justify-content: center;
 
-            span {
-                padding: 20px;
+            a {
+                text-decoration: unset;
+            }
+            
+            .test {
+                margin: 10px;
+                width: 200px;
+                display: flex;
+                flex-direction: column;
+                border: 1px solid black;
+                justify-content: center;
+                align-items: center;
+
+                span {
+                    font-family: "Roboto";
+                    text-transform: uppercase;
+                }
             }
         }
     }
