@@ -2,6 +2,7 @@
     padding: 20px;
 
     .test-wrapper {
+        padding-top: 25px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -9,6 +10,7 @@
 
         span {
             font-family: "Roboto";
+            text-align: center;
         }
         
         img {
@@ -16,6 +18,14 @@
 
             @media screen and (max-width: 600px) {
                 max-width: 300px;
+            }
+        }
+
+        .clue-wrapper {
+            padding-top: 15px;
+
+            button {
+                margin: 5px;
             }
         }
     }

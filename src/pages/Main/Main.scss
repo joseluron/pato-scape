@@ -2,6 +2,7 @@
     padding: 20px;
 
     .main-page-wrapper {
+        padding-top: 25px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -16,13 +17,33 @@
             text-align: center;
         }
 
+        span {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
         .links-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
 
-            span {
-                padding: 20px;
+            a {
+                text-decoration: unset;
+            }
+            
+            .test {
+                margin: 10px;
+                width: 200px;
+                display: flex;
+                flex-direction: column;
+                border: 1px solid black;
+                justify-content: center;
+                align-items: center;
+
+                span {
+                    font-family: "Roboto";
+                    text-transform: uppercase;
+                }
             }
         }
     }

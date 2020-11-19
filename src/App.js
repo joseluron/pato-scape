@@ -9,8 +9,8 @@ const App = props => {
     <BrowserRouter>
         <div className="app-container page-background">
             <Route path="/" exact component={MainPage}/>
-            <Route path="/map" exact component={TestPage}/>
-            <Route path="/cesar" exact component={TestPage}/>
+            <Route path="/:slug" exact component={MainPage}/>
+            <Route path="/test/:slug" exact component={TestPage}/>
         </div>
     </BrowserRouter>
   );

@@ -8,7 +8,7 @@ const Nav = props => {
         <div className="nav-wrapper">
             {props.location && props.location.pathname !== '/' && 
                 <div className="back-wrapper">
-                    <Link to="/">Volver</Link>
+                    <Link to="/"><span>Volver</span></Link>
                 </div>
             }
             <span>¡Pato al rescate!</span>
