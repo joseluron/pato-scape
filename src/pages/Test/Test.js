@@ -6,6 +6,7 @@ import Nav from '../../components/Nav';
 import './Test.scss';
 import Map from '../../assets/img/map.png';
 import Cesar from '../../assets/img/cesar.png';
+import Laberinto from '../../assets/img/laberinto.png';
 
 const TestPage = props => {
   const [toDoTest, setToDoTest] = useState({});
@@ -32,12 +33,12 @@ const TestPage = props => {
     },
     {
       path: "/test/test3",
-      text: "Test",
-      image: Cesar,
-      solution: "test",
-      clue0: "Test",
-      clue1: "Test",
-      clue2: "Test"
+      text: "El mapache Jose tiene una guarida secreta, a la que accede por un laberinto hecho por los topos del pueblo. Seguramente haya dejado uno de los regalos allí. Ya hemos visto que el mapache José no es muy listo, así que para poder navegar por este laberinto tiene que seguir unas indicaciones numéricas para llegar, ya que si no nunca se acordaría del camino. ¿Que indicaciones numéricas ha seguido?",
+      image: Laberinto,
+      solution: "1143652",
+      clue0: "¡Uuuuuuy, vayaaaaaaa, que gracioso es el mapache Jose!. Quería fastidiarte un poco para que tuvieses que pedir pisa si o si, jiji. Si quieres salir del laberinto tienes que saber que existen unas normas para ello:\n\n«El primer punto por el que pases + el segundo punto por el que pases será un valor, que multiplicado por el último punto por el que pases, será igual al tercer punto por el que pases»\n\n«Si le restas a el quinto punto por el que pases, el cuarto punto por el que pases, y le sumas el valor del último punto por el que pases, obtendrás el valor del sexto punto por el que pases»",
+      clue1: "1 + 1 = 2, ¿Quién me lo iba a decir?",
+      clue2: "6 - 3 + 2 = ?"
     }
   ]
   

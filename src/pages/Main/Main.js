@@ -15,6 +15,10 @@ const ALL_TEST = [
   {
     path: '/test/test2',
     test: 'El mensaje secreto'
+  },
+  {
+    path: '/test/test3',
+    test: 'El laberinto'
   }
 ]
 
