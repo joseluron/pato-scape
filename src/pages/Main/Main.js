@@ -24,7 +24,7 @@ const MainPage = () => {
       <Nav />
       <div className="main-page-wrapper">
         <img src={SuperPato} alt="Super Pato" />
-        <span>¡Ay que ver con el mapache Jose la que ha liado! ¡Ha perdido los regalos que tenía que hacerte! Como sabe que eres muy bueno en los scapes, te ha pedido ayuda para ayudarle a encontrarlos y así de paso poder dartelos. Si no le ayudas te quedas sin regalos, así que tu sabrás....</span>
+        <span>¡Ay que ver con el mapache Jose la que ha liado! ¡Ha perdido los regalos que tenía que hacerte! Como sabe que eres muy bueno en los scapes, te ha pedido ayuda para encontrarlos y así de paso poder dartelos. Si no le ayudas te quedas sin regalos, así que tu sabrás....</span>
         <div className="links-container">
           {ALL_TEST.map(test => 
             <Link to={test.path}>

@@ -14,7 +14,7 @@ const TestPage = props => {
   const TESTS = [
     {
       path: "/test/test1",
-      text: "El mapache Jose se fue de vacaciones hace no mucho con su amigo el cangrejo Sebastian. Con lo distraido que es seguramente perdió el regalo en uno de los lugares que visitó",
+      text: "El mapache Jose se fue de vacaciones hace no mucho con su amigo el cangrejo Sebastian. Con lo distraido que es seguramente perdió el regalo en uno de los lugares que visitó. ¿Quizá lo mejor sea recorrer el mismo camino?",
       image: Map,
       solution: "oneso",
       clue0: "Hoy en día no se necesitan los mapas fisicos para ir de un lugar a otro. ¿Que se utilizará entonces?",
