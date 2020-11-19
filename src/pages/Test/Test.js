@@ -29,6 +29,15 @@ const TestPage = props => {
       clue0: "Parece ser que hace muchos muchos años un tal Julio Cesar cifraba muy bien los mensajes para que sus oponentes en la guerra no supiesen que escribía",
       clue1: "En el cifrado cesar es necesaria una clave; también conocida como valor de desplazamiento, para cifrar correctamente el texto. Es decir, cada letra del texto original se desplaza n veces en el abecedario castellano. Seguramente el mapache Jose haya dejado en algun lugar de la nota ese valor",
       clue2: "Los mapaches son muy limpios con la comida, siempre lavan todo lo que se vayan a comer. ¿Quizá el mapache José cofundió el regalo con comida y los lavo juntos en algun lugar?"
+    },
+    {
+      path: "/test/test3",
+      text: "Test",
+      image: Cesar,
+      solution: "test",
+      clue0: "Test",
+      clue1: "Test",
+      clue2: "Test"
     }
   ]
   
