@@ -11,6 +11,7 @@ import Laberinto from '../../assets/img/laberinto.png';
 const TestPage = props => {
   const [toDoTest, setToDoTest] = useState({});
   const [solution, setSolution] = useState("");
+  const [clueIndex, setClueIndex] = useState(0);
   
   const TESTS = [
     {
@@ -56,6 +57,10 @@ const TestPage = props => {
 
   const giveClue = index => {
     alert(toDoTest[`clue${index}`]);
+    
+    if (index === clueIndex) {
+      setClueIndex(index+1);
+    }
   }
   
   return (
@@ -69,7 +74,13 @@ const TestPage = props => {
             <input type="text" value={solution} onChange={(ev) => setSolution(ev.target.value)} />
             <button onClick={checkSolution}>Resolver</button>
             <div className="clue-wrapper">
-              {[...Array(3)].map((v, index) => <button onClick={() => giveClue(index)}>{`Pista ${index+1}`}</button>)}
+              {[...Array(3)].map((v, index) => {
+                return (
+                  <div key={index}>
+                    {(index <= clueIndex) && <button onClick={() => giveClue(index)}>{`Pista ${index+1}`}</button>}
+                  </div>
+                );
+              })}
             </div>
           </>
         }
